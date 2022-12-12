@@ -1,8 +1,14 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
 	import strobbery from '$lib/images/strobbery.jpg';
+	import defend from '$lib/images/defend.jpg';
+	import ente from '$lib/images/ente.jpg';
+	import berg from '$lib/images/berg.jpg';
+	import llama from '$lib/images/llama.jpg';
+	import monopoly from '$lib/images/monopoly.jpg';
+	import traurig from '$lib/images/traurig.jpg';
+	import hdl from '$lib/images/hdl.jpg';
+	import spaten from '$lib/images/spaten.jpg';
+	import rap from '$lib/images/rap.jpg';
 </script>
 
 <svelte:head>
@@ -30,8 +36,53 @@
 	<p>hi</p>
 </section> -->
 <section>
-	<h1>Strobbery --- Artist: Christoph Miksche</h1>
+	<h1>Strobbery --- Artist: Christoph</h1>
 	<img src={strobbery} />
+</section>
+
+<section>
+	<h1>Defend Your Answer --- Artist: Julian</h1>
+	<img src={defend} />
+</section>
+
+<section>
+	<h1>Ente --- Artist: Niklas</h1>
+	<img src={ente} />
+</section>
+
+<section>
+	<h1>Berg --- Artist: Niklas</h1>
+	<img src={berg} />
+</section>
+
+<section>
+	<h1>Llama --- Artist: Niklas</h1>
+	<img src={llama} />
+</section>
+
+<section>
+	<h1>Magnetisches Monopoly --- Artist: Niklas</h1>
+	<img src={monopoly} />
+</section>
+
+<section>
+	<h1>Nicht Traurig Sein --- Artist: Julia</h1>
+	<img src={traurig} />
+</section>
+
+<section>
+	<h1>Das HdL-Integral --- Artist: Julia, Niklas</h1>
+	<img src={hdl} />
+</section>
+
+<section>
+	<h1>Das Spaten-Produkt --- Artist: Niklas</h1>
+	<img src={spaten} />
+</section>
+
+<section>
+	<h1>Rap --- Artist: Julia, Niklas</h1>
+	<img src={rap} />
 </section>
 
 <style>
