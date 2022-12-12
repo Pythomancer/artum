@@ -2,6 +2,7 @@
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import strobbery from '$lib/images/strobbery.jpg';
 </script>
 
 <svelte:head>
@@ -9,7 +10,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
+<!-- <section>
 	<h1>
 		<span class="welcome">
 			<picture>
@@ -26,6 +27,11 @@
 	</h2>
 
 	<Counter />
+	<p>hi</p>
+</section> -->
+<section>
+	<h1>Strobbery --- Artist: Christoph Miksche</h1>
+	<img src={strobbery} />
 </section>
 
 <style>

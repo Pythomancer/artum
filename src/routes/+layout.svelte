@@ -11,7 +11,9 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>
+			src: <a href="https://github.com/Pythomancer/artum">https://github.com/Pythomancer/artum</a>
+		</p>
 	</footer>
 </div>
 
